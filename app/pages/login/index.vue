@@ -30,7 +30,7 @@ const onSubmit = handleSubmit(async (values) => {
 
 const loginWithHrm = () => {
   const clientId = config.public.hrmClientId;
-  const redirectUri = `${config.public.apiBase}/login/hrm`;
+  const redirectUri = `${window.location.origin}/login/hrm`;
 
   window.location.href = `${config.public.hrmUrl}/oauth?clientId=${clientId}&redirectUri=${redirectUri}`;
 };
