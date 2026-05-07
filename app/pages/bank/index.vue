@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import Airwallex from "~/modules/bank/components/Airwallex.vue";
-import Cash from "~/modules/bank/components/cash.vue";
+import Cash from "~/modules/bank/components/Cash.vue";
 import DataItem from "~/modules/bank/components/DataItem.vue";
 import GeneralTable from "~/modules/bank/components/GeneralTable.vue";
 import MBBank from "~/modules/bank/components/MBBank.vue";
